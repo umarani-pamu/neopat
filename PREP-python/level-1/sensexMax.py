@@ -1,0 +1,6 @@
+N=input()
+N_numbers=input()
+N_list=list(map(int,N_numbers.split()))
+max_value=max(N_list)
+period_index=N_list.index(max_value)
+print(period_index)
